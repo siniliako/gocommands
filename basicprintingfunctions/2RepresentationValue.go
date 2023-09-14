@@ -3,10 +3,12 @@ package main
 
 import "fmt"
 
-func hello() string {
-	return "Hello, world"
+type Person struct {
+	Name string
+	Age  int
 }
 
 func main() {
-	fmt.Println(hello())
+	person := Person{Name: "John", Age: 30}
+	fmt.Printf("%#v\n", person)
 }

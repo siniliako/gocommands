@@ -3,10 +3,7 @@ package main
 
 import "fmt"
 
-func hello() string {
-	return "Hello, world"
-}
-
 func main() {
-	fmt.Println(hello())
+	isExist := true
+	fmt.Printf("User status is %t", isExist)
 }

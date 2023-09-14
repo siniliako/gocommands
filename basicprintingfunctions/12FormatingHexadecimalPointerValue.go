@@ -3,10 +3,8 @@ package main
 
 import "fmt"
 
-func hello() string {
-	return "Hello, world"
-}
-
 func main() {
-	fmt.Println(hello())
+	value := 42
+	pointer := &value
+	fmt.Printf("Value: %d, Pointer: %p\n", value, pointer)
 }

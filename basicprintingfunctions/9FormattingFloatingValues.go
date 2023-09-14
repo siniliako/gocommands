@@ -3,10 +3,7 @@ package main
 
 import "fmt"
 
-func hello() string {
-	return "Hello, world"
-}
-
 func main() {
-	fmt.Println(hello())
+	pi := 3.14159
+	fmt.Printf("Pi: %f\n", pi)
 }
